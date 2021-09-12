@@ -99,6 +99,130 @@ h1{
 
 /* MAIN */
 
+main{
+    margin: 0 25%;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/* CONTAINER 1 */
+
 .container_1{
-    
+    margin-top: 130px;
+
+}
+
+.container_1 > img{
+    float: left;
+    margin: -40px 40px 0 0;
+}
+
+.title_container {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+
+.main_text{
+    width:941px;
+}
+
+.text_1{
+    margin-top: 20px;
+}
+
+/* CONTAINER 2 */
+
+.container_2{
+    margin-top: 260px;
+
+}
+
+.container_2 > img{
+    float: right;
+    margin: -40px 0 40px 0;
+}
+
+.title_container {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+
+.main_text{
+    width:941px;
+}
+
+.text_1{
+    margin-top: 20px;
+}
+
+/* CONTAINER 3 */
+
+.container_3{
+    margin-top: 350px;
+
+}
+
+.container_3 > img{
+    float: left;
+    margin: -40px 40px 0 0;
+}
+
+.title_container {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+
+.main_text{
+    width:941px;
+}
+
+.text_1{
+    margin-top: 20px;
+}
+
+/* CONTAINER 4 */
+
+.container_4{
+    margin-top: 350px;
+
+}
+
+.container_4 > .main_text{
+    justify-content: center;
+    text-align: center;
+}
+
+.title_container {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+
+.container_4 > img, .CTA{
+    text-align: center;
+    width: 100%;
+}
+
+.text_1{
+    margin-top: 20px;
+}
+
+.CTA{
+    background-image: url(./img/stars.svg);
+        height: 100px;
+    background-repeat: no-repeat;
+}
+
+.CTA_text{
+    justify-content: center;
+    text-align: center;
+        margin-top: -50px;
+        font-size: 2rem;
+}
+
+.blueb{
+  background-color: #8EA1E1;  
+  color: white;
 }
