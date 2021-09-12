@@ -19,13 +19,13 @@ height: 626px;
 }
 
 .container_interaction {
-    line-height: 27px;
-    vertical-align: middle;
+    padding: 20px 0 0 310px;
+    display: flex;
 }
 
 .logo{
     float: left;
-      margin: 20px 0 0 310px;
+    margin-right: 250px;
 }
 
 .container_interaction > button {
@@ -34,4 +34,11 @@ height: 626px;
 
 .container_interaction > nav{
 display: inline-block;
+  margin-right: 250px;
+      word-spacing: 40px;
+}
+
+.menù{
+    text-decoration: none;
+    color: white;
 }
