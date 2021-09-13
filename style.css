@@ -248,7 +248,7 @@ main{
 
 .site_footer {
     background-color: #23272A;
-    height: 500px;
+    height:600px;
     width: 100%;
      font-family: 'Catamaran', sans-serif;
 }
@@ -302,8 +302,39 @@ main{
 
 table td, table th{
     padding: 0 75px;
+    font-weight: 900;
 }
 
 .footer_menu{
     font-size: 1.2rem;
+}
+
+
+.footer_endline{
+        width: 95%;
+}
+
+.Bazure_footer{
+    float: right;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 10px 19px;
+    border: 0;
+    cursor: pointer;
+     background-color: #8EA1E1;  
+  color: white;
+
+}
+
+.end_of_line{
+    margin-top:30px;
+}
+
+.footer_endline > hr{
+    margin-top: 25px;
+     border-color: #8EA1E1; 
+}
+
+.arrow{
+    cursor: pointer;
 }
