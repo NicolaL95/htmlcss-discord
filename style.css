@@ -96,7 +96,7 @@ clear: both;
 }
 
 .Bdark:hover{
-    filter: brightness(130%)
+    filter: brightness(150%)
 }
 
 .Bazure_footer:hover,.blueb:hover{
@@ -104,7 +104,7 @@ clear: both;
 box-shadow: 1px 1px 5px black;
 }
 
-.container_interaction > button, .standardB,.Bazure_foote,.blueb{
+.container_interaction > button, .standardB,.Bazure_footer,.blueb{
  transition: 0.2s; 
 }
 
