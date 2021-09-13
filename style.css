@@ -1,4 +1,8 @@
 /* GLOBAL */
+html {
+  scroll-behavior: smooth;
+}
+
 *{
 box-sizing: border-box;
 margin: 0;
@@ -80,6 +84,28 @@ clear: both;
 .container2, .container4{
     background-color: #F6F6F6;
 }
+
+
+/* HOVER */
+
+.container_interaction > button:hover, .Bwhite:hover{
+ color: #7289DA ; 
+ box-shadow: 1px 1px 5px black;
+}
+
+.Bdark:hover{
+    filter: brightness(130%)
+}
+
+.Bazure_footer:hover,.blueb:hover{
+    filter: brightness(105%);
+box-shadow: 1px 1px 5px black;
+}
+
+.container_interaction > button, .standardB,.Bazure_foote,.blueb{
+ transition: 0.2s; 
+}
+
 
 /* HEADER */
 
@@ -254,7 +280,7 @@ h1{
 .site_footer {
     
     background-color: #23272A;
-    height:600px;
+    height:630px;
     width: 100%;
      font-family: 'Catamaran', sans-serif;
 }
@@ -266,12 +292,14 @@ h1{
    }
 .footer_utility{
     float: left;
+    margin-top: -5px;
 }
 
 .footer_utility > h2{
     font-size: 2.5rem;
         max-width: 75%;
         color: #7289DA ; 
+            line-height: 1.1;
 }
 
 .Fmain_language > img{
