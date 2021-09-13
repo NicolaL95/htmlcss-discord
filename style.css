@@ -38,13 +38,15 @@ clear: both;
 }
 
 .main_text{
-        width: 230px;
+    width: 230px;
     display: inline-block;
-        margin-top: 39px;
+    margin-top: 39px;
+    margin-left: 42px;
 }
 
 .text_1{
     margin-top: 20px;
+    font-weight: bolder;
 }
 
 /* UTILITY */
@@ -233,11 +235,15 @@ h1{
 }
 
 .title_container4{
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.1;
     font-weight: bolder;
 }
-
+.text_4{
+    font-weight: bolder;
+    margin-top: 30px;
+}
+    
 .CTA_container{
     position: relative;
     padding-bottom: 130px;
