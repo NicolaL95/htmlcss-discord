@@ -11,6 +11,38 @@ display: table;
 clear: both;
 }
 
+.container1,.container2, .container3, .container4{
+       height: 500px;
+       font-family: 'Catamaran', sans-serif;
+}
+
+.container2, .container3, .container4{
+   margin-top: 100px;
+}
+
+.container_main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title_container {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+
+.main_text{
+        width: 230px;
+    display: inline-block;
+        margin-top: 39px;
+}
+
+.text_1{
+    margin-top: 20px;
+}
+
 /* UTILITY */
 .standardB{
      border-radius: 40px;
@@ -24,6 +56,10 @@ clear: both;
 .Bdark{
    background-color: #23272A;
    color: white;
+}
+
+.container2, .container4{
+    background-color: #F6F6F6;
 }
 
 /* HEADER */
@@ -97,10 +133,105 @@ h1{
 }
 
 
+/* MAIN */
+
+/* CONTAINER 1 */
+
+.container1{
+    position: relative;
+ 
+}     
+
+.img1{
+    float: left;
+}
+
+
+
+/* CONTAINTER 2 */
+
+.container2{
+    position: relative;
+ 
+}     
+
+.img2{
+    float: right;
+}
+
+    /* CONTAINTER 3 */
+
+.container3{
+    position: relative;
+ 
+}     
+
+.img3{
+    float: left;
+}
+
+/* CONTAINTER 4 */
+
+.container4{
+    position: relative;
+    height: 1000px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.main_text4{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: auto;
+        margin-top: 75px;
+}
+
+.title_container4{
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+
+.CTA_container{
+    position: relative;
+    padding-bottom: 130px;
+}
+
+.CTA{
+       background-image: url(./img/stars.svg);
+    height: 125px;
+    background-repeat: no-repeat;
+    background-size: 521px;
+    padding: -161px;
+    margin-left: 188px;
+    display: inline-block;
+    margin-bottom: -53px;
+    width: 100%;
+}
+
+
+.CTA_text{
+    justify-content: center;
+    text-align: center;
+        margin-top: -50px;
+        font-size: 2rem;
+}
+
+.blueb{
+  background-color: #8EA1E1;  
+  color: white;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
 
 /* FOOTER */
 
 .site_footer {
+    
     background-color: #23272A;
     height:600px;
     width: 100%;
