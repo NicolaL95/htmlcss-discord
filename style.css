@@ -100,7 +100,7 @@ h1{
 /* MAIN */
 
 main{
-    margin: 0 25%;
+    margin: 0 auto;
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -209,11 +209,23 @@ main{
     margin-top: 20px;
 }
 
+
+.CTA_container{
+    position: relative;
+    padding-bottom: 130px;
+}
+
 .CTA{
     background-image: url(./img/stars.svg);
-        height: 100px;
+      height: 125px;
     background-repeat: no-repeat;
+    background-size: 521px;
+    padding: -161px;
+    margin-left: 215px;
+    display: inline-block;
+    margin-bottom: -54px;
 }
+
 
 .CTA_text{
     justify-content: center;
@@ -225,4 +237,73 @@ main{
 .blueb{
   background-color: #8EA1E1;  
   color: white;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+.site_footer {
+    background-color: #23272A;
+    height: 500px;
+    width: 100%;
+     font-family: 'Catamaran', sans-serif;
+}
+
+
+
+.main_footer{
+    padding: 76px 0 0 200px;
+   }
+.footer_utility{
+    float: left;
+}
+
+.footer_utility > h2{
+    font-size: 2.5rem;
+        max-width: 75%;
+        color: #7289DA ; 
+}
+
+.Fmain_language > img{
+     height: 15px;
+}
+
+.Fmain_language{
+    margin: 20px 0px 15px 0;
+}
+
+.language{
+    color: white;
+}
+.Floghi{
+    color: white;
+}
+
+.loghi{
+    word-spacing: 18px;
+    font-size: 20px;
+}
+
+.menu_coloumn{
+     color: #7289DA ; 
+     text-align: left;
+}
+
+.menu_text{
+    color: white;
+     text-align: left;
+     padding: 0 15px;
+     cursor: pointer;
+}
+
+table td, table th{
+    padding: 0 75px;
+}
+
+.footer_menu{
+    font-size: 1.2rem;
 }
